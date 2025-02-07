@@ -1,0 +1,119 @@
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.bgimg1 {
+    background-image: url(../image/Wall1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.bgimg2 {
+    background-image: url(../image/wall3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+.bgimg3 {
+    background-image: url(../image/Wall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+.bgimg4 {
+    background-image: url(../image/Wall4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.inputfield {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.searchbox {
+    width: 400px;
+    opacity: 0.5;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 9px;
+    letter-spacing: 2px;
+    font: 24px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    border-left: 9px;
+    margin-bottom: 2vh;
+    width: 40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    filter:drop-shadow(1px 1px 5px black);
+    font-weight: bold;
+}
+.con-1{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    height: 20vh;
+    transition: 0.2s;
+    border: none;
+    transition-timing-function: ease;
+    margin-top: 2vh;
+    border-radius: 20px;
+    background-color:rgba(45, 52, 54,0.7);
+}
+.ri-haze-fill{
+    font-size: 20px;
+    color:rgba(241, 242, 246,1.0);
+}
+.ri-cloudy-fill{
+    font-size: 20px;
+    color:rgba(241, 242, 246,1.0);
+}
+.temp{
+    font-size: 20px;
+    color:rgba(241, 242, 246,1.0);
+}
+.ctyname{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgba(241, 242, 246,1.0);
+}
+.icontemp{
+   margin-left:15px; 
+   margin-top:0px; 
+   letter-spacing: 1px;
+}
+.RealFeel h6{
+    letter-spacing: 1px;
+    margin-top:10px;
+    margin-left:5px;
+    color:rgba(241, 242, 246,1.0);
+}
+.ri-moon-clear-fill{
+    font-size: 20px;
+    color:rgba(241, 242, 246,1.0);
+}
